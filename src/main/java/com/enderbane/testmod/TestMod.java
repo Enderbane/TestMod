@@ -2,6 +2,7 @@ package com.enderbane.testmod;
 
 import com.enderbane.testmod.proxy.IProxy;
 import com.enderbane.testmod.reference.Reference;
+import com.enderbane.testmod.util.ConfigurationHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -20,7 +21,7 @@ public class TestMod
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigurationHelper.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
