@@ -1,15 +1,15 @@
 package com.enderbane.testmod;
 
+import com.enderbane.testmod.handler.ConfigurationHandler;
 import com.enderbane.testmod.proxy.IProxy;
 import com.enderbane.testmod.reference.Reference;
-import com.enderbane.testmod.configuration.ConfigurationHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION)
+@Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class TestMod
 {
     @Mod.Instance(Reference.MODID)
@@ -21,7 +21,7 @@ public class TestMod
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        ConfigurationHelper.init(event.getSuggestedConfigurationFile());
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler
