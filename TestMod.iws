@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d45990-2250-4c93-be4e-af99192ebfba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/enderbane/testmod/item/ItemMapleLeaf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/enderbane/testmod/item/ItemTMOD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/enderbane/testmod/init/ModItems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestMod.iws" afterPath="$PROJECT_DIR$/TestMod.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/enderbane/testmod/TestMod.java" afterPath="$PROJECT_DIR$/src/main/java/com/enderbane/testmod/TestMod.java" />
     </list>
     <ignored path="TestMod.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -672,7 +668,11 @@
       <created>1413359120345</created>
       <updated>1413359120345</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added test item, item wrapper class, and localization.">
+      <created>1413361503677</created>
+      <updated>1413361503677</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -697,7 +697,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
