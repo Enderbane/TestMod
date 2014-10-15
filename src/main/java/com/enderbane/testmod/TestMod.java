@@ -1,6 +1,7 @@
 package com.enderbane.testmod;
 
 import com.enderbane.testmod.handler.ConfigurationHandler;
+import com.enderbane.testmod.init.ModItems;
 import com.enderbane.testmod.proxy.IProxy;
 import com.enderbane.testmod.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -24,6 +25,8 @@ public class TestMod
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
