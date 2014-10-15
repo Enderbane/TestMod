@@ -1,4 +1,4 @@
-package com.enderbane.testmod.util;
+package com.enderbane.testmod.configuration;
 
 import net.minecraftforge.common.config.Configuration;
 

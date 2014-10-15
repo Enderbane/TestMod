@@ -2,7 +2,7 @@ package com.enderbane.testmod;
 
 import com.enderbane.testmod.proxy.IProxy;
 import com.enderbane.testmod.reference.Reference;
-import com.enderbane.testmod.util.ConfigurationHelper;
+import com.enderbane.testmod.configuration.ConfigurationHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
